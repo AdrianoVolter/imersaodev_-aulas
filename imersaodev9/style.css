@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Strait&display=swap");
+body {
+  background: radial-gradient(farthest-corner at 40px 40px,#75bffb 0%,#0453b4 80%)no-repeat fixed;
+  font-family: "Strait", sans-serif;
+}
+.container {
+  color: #050505;
+  margin: 128px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgb(112, 110, 110), 1px 1px 10px black, 3px 3px 15px black;
+  padding: 55px;
+
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  
+}
+
+.img-perfil {
+  border: 5px white solid;
+  border-radius: 100%;
+  max-height: 160px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.titulo h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tema button {
+    color: #292f37;
+    background: #f8f8f2;
+    border-radius: 50px;
+    font-size: 16px;
+    align-self: flex-end;
+    padding: 16px 20px;
+    font-weight: 400;
+  }
+
+.projetos {
+    background: linear-gradient(236.85deg, rgb(103, 163, 231) 27.26%, rgb(97, 95, 96) 96.03%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding:32px;
+    font-size: 24px; 
+    
+  
+}
+.projetos-titulos{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 35px;
+    color: #1c1c1c;
+   
+}
+.projetos-item{
+   
+   
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    
+    
+}
+.projetos-item a{
+    text-decoration: none;
+    color: #1c1c1c;
+   
+}
+
+.dark {
+  background: radial-gradient(farthest-corner at 40px 40px,#b31919 0%, #020407 80% )no-repeat fixed;
+}
+.dark .perfil-Ft {
+  border: 5px #434852 solid;
+}
+.dark .container {
+  background: #2c313a;
+  color: #f8f8f2;
+}
+.dark .projetos {
+  background: #434852;
+}
+.dark .tema button {
+  background: #2c313a;
+  border: 1px white solid;
+  color: #f8f8f2;
+}
+.dark .link-icon {
+  color: #f8f8f2;
+  transition: color 0.2s;
+}
+.dark .link-icon:hover {
+  color: #a6c88f;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    background: radial-gradient(farthest-corner at 40px 40px,#19b39275 0%, #81a8e2 80% )no-repeat fixed;
+    font-weight: 700;
+    font-style: italic;
+}
