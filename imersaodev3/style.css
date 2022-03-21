@@ -1,0 +1,77 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 700px;
+    background-image: url("https://s03.s3c.es/imag/_v0/770x420/6/e/5/Mente-brillante-maguenisraelca.png");
+    background-color: #000000;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 80px;
+    height: 80vh;
+  }
+  
+  .page-title {
+     
+    color: #030303;
+    margin: 0 0 10px;
+    border: #f5f6f6;
+  }
+  
+  .page-subtitle {
+   
+    color: #0a0a0a;
+    margin-top: 16px;
+  }
+  
+  .page-logo {
+   
+    background-position: 10%;
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+   
+} 
+  .resultado {
+    color: #f8f8f8;
+    text-align: center;
+    margin-top: 16px;
+  }
+  section{
+    background-color: #06e2e2;
+    background-position: top;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    margin: auto;
+
+  }
+  
