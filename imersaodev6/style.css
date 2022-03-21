@@ -1,0 +1,79 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("https://img.freepik.com/vetores-gratis/game-over-com-efeito-de-falha_225004-661.jpg");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    
+    color: #ffffff;
+    margin: 0 0 50px;
+    
+  }
+  
+  .page-subtitle {
+    border: 2px solid #dbdbdb;
+    color: #f8f8f8;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid rgb(248, 247, 247);
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: rgb(246, 246, 246);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  s
+  th,
+  tr,
+  td {
+    border: solid 1px rgb(255, 253, 253);
+    color: rgb(248, 246, 246); 
+  }
+
+  
+  section{
+    background: rgba(250, 246, 246, 0.192);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    background-position:center;
+    border-radius: 10px;
+    padding: 30px;
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  
+  
