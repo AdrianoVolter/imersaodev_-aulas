@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section id="sessao">
+                <h1 class="page-title">
+            Conversor de moedas
+            </h1>
+            <p class="page-subtitle">
+            Descubra os valores
+            </p>       
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>        
+            <div id="div2">
+            <b><label id="text1">Converter para: </label></b><br />
+            <select id="opções">
+                <option value="nada">----</option>
+                <option value="US$">Dólar</option>                
+                <option value="EU$">Euro</option>
+                <option value="LB$">Libra</option>              
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>						
+            </select><br />
+            </div>
+            <form action="">
+                <div>               
+                    <b><label>Valor a ser convertido:</label></b><br />		
+                    <input type="number" id="num"/>
+                    <input type="button" value="Converter" onclick="conversao()"/>
+                    <input type="reset" value="Limpar">    
+                </div>
+            </form>            				                            
+			<div id="div4">
+				<label id="resultado">Resultado da conversão:</label><br />
+				<span id="valorFinal"></span>
+			</div><br />
+			
+			<div id="div5">
+				<ul>								
+				<li>Data da cotação: 08/03/2022</li>
+			</ul>
+			</div>
+        </section>       
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <script src="script.js"></script>
+</body>
+
+</html>
+
