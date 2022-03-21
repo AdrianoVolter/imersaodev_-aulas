@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), 
+    url('https://fictionhorizon.com/wp-content/uploads/2022/01/Demon-Slayer-Kimetsu-no-Yaiba-Season-2-1024x512.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;  
+    
+  }
+ 
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  label{
+    color: #f1f1f1;
+  }
+  
+  .page-subtitle {
+    color: #f8eeee;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+  }
+  img:hover {
+    transition: transform 0.5s;
+    transform: scale(1.2);
+  }
+
+  input {
+    margin: 6px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 6px 8px;
+    border-radius: 10px;
+    background: #e92d2d;
+  }
